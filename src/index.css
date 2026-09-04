@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-brand: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color-scheme: dark;
+}
+
+.font-brand {
+  font-family: 'Cinzel', serif;
+}
+
+/* Bento Grid dark dot-matrix background */
+.barber-bg {
+  background-color: #0a0a0a;
+  background-image: 
+    radial-gradient(circle at 2px 2px, #1a1a1a 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
+/* Barber pole subtle accent striping */
+.barber-pole-border {
+  background: repeating-linear-gradient(
+    45deg,
+    #b91c1c,
+    #b91c1c 8px,
+    #f8fafc 8px,
+    #f8fafc 16px,
+    #1d4ed8 16px,
+    #1d4ed8 24px,
+    #f8fafc 24px,
+    #f8fafc 32px
+  );
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

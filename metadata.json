@@ -1,0 +1,6 @@
+{
+  "name": "BarberSchedule - Agendamento para Barbeiros",
+  "description": "Aplicativo moderno e exclusivo de agendamento e gestão para barbeiros e barbearias com cálculo dinâmico de horários por duração de serviço.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
